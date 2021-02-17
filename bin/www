@@ -16,7 +16,7 @@ var port = normalizePort(process.env.PORT || config.waport );
 console.log('running the app on port '+port);
 app.set('port', port);
 app.set('env',"production");
-app.set('hostname','127.0.0.1');
+app.set('hostname','0.0.0.0');
 
 /**
  * Create HTTP server.
